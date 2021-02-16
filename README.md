@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview
-In this module we will be using data preparation, statistical reasoning and apply machine learning to solve a real-world challenge: credit card risk. To begin, the imbalanced-learn and scikit-learn libraries are utilized to build and evaluate models using resampling. The credit card dataset from LendingClub is used to oversample data with the RandomOverSampler and SMOTE algorithms, then undersample that data with the ClusterCentroids algorithm. A combinational approach of over- and undersampling using the SMOTEENN algorithm is then applied. To conclude, we compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit card risk. 
+In this module we will be using data preparation, statistical reasoning and apply machine learning to solve a real-world challenge: credit card risk. To begin, the imbalanced-learn and scikit-learn libraries are utilized to build and evaluate models using resampling. The credit card dataset from LendingClub is used to oversample data with the RandomOverSampler and SMOTE algorithms, then undersample that data with the ClusterCentroids algorithm. A combinational approach of over- and undersampling using the SMOTEENN algorithm is then applied. Using these algorithms, we view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix and a classification report to compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit card risk. 
 
 ## Resources
 - Data Source: LoanStats_2019Q1.csv
@@ -32,5 +32,5 @@ Results: the accuracy score is 79%, the precision is 99% and the recall is 87%
 
 Results: the accuracy score is 93%, the precision is 99% and the recall is 94%
 
-## Conclusion
-The Easy Ensemble AdaBoost Classifier is the most accurate of all the tests due to having the highest accuracy and precision scores.
+## Summary
+The Easy Ensemble AdaBoost Classifier is the most accurate of all the tests that should be used here by having the highest accuracy and precision scores.
